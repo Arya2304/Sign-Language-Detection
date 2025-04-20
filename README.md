@@ -39,22 +39,22 @@ The user can quit the session by pressing 'q'.
 
 # Overall Flow:
 
-\* The user first collects images for each sign class using create_img.py.
-\* Then, create_dataset.py processes these images to extract hand landmarks and prepares the dataset.
-\* train_classifier.py trains a machine learning model on this dataset.
-\* inference_classifier.py uses the trained model to predict signs in real-time from webcam input.
-\* sign_language.py provides a user-friendly GUI to run the real-time sign language detection using the trained model.
-\* This modular structure separates data collection, preprocessing, training, inference, and user interaction into distinct scripts, making the project organized and easy to follow.
+* The user first collects images for each sign class using create_img.py.
+* Then, create_dataset.py processes these images to extract hand landmarks and prepares the dataset.
+* train_classifier.py trains a machine learning model on this dataset.
+* inference_classifier.py uses the trained model to predict signs in real-time from webcam input.
+* sign_language.py provides a user-friendly GUI to run the real-time sign language detection using the trained model.
+* This modular structure separates data collection, preprocessing, training, inference, and user interaction into distinct scripts, making the project organized and easy to follow.
 
 # To run the project follow the steps:
 1. Open Terminal
 2. Install required modules:
-\* mediapipe (pip install mediapipe)
-\* opencv-python (pip install opencv-python)
-\* matplotlib (pip install matplotlib)
-\* numpy (pip install numpy)
-\* scikit-learn (pip install scikit-learn)
-\* tkinter (usually comes pre-installed with Python, but on some systems you may need to install it separately)
+* mediapipe (pip install mediapipe)
+* opencv-python (pip install opencv-python)
+* matplotlib (pip install matplotlib)
+* numpy (pip install numpy)
+* scikit-learn (pip install scikit-learn)
+* tkinter (usually comes pre-installed with Python, but on some systems you may need to install it separately)
 3. Run The file sequense wise: create_img.py, create_dataset.py, inference_classifier.py, sign_language.py
 
 # Sign Language Image
